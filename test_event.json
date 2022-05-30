@@ -1,0 +1,38 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2022-03-31T17:03:59.480Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "AWS:AIDAQO7Q74EZO4GQGZ5ND"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "109.207.116.202"
+      },
+      "responseElements": {
+        "x-amz-request-id": "P8393RF470RNW988",
+        "x-amz-id-2": "WgWubz8W9pgsO3LNWITQGdlnNE6QU/ZULJRSdfgm6O7H2an/9zfmSudZCwdsfvjY7GCDULqxX0tFZSxkiusm/RaTOyvsw0ct"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "22cbd4db-1d1d-41f0-ab63-16902efc3343",
+        "bucket": {
+          "name": "hometaskepam",
+          "ownerIdentity": {
+            "principalId": "A2YG9VQFBU4CKJ"
+          },
+          "arn": "arn:aws:s3:::hometaskepam"
+        },
+        "object": {
+          "key": "2019_Oscars.csv",
+          "size": 7516,
+          "eTag": "65c608121d5327b51b5363fb3aa9a40a",
+          "sequencer": "006245DEFF71A257BE"
+        }
+      }
+    }
+  ]
+}
